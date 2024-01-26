@@ -18,11 +18,13 @@ The MovieLens 20M Dataset is used for training and evaluating the recommender sy
 - surprise
 
 ## Pipeline
+```mermaid
 graph LR;
   A[Load Dataset] --> B[Content Filtering]
   B --> C[Collaborative Filtering]
   C --> D[Hybrid Recommendation System]
   D --> E[Surprise Library]
+```
 
 ## Accuracy
 The recommender system achieves an accuracy of 91.12%
